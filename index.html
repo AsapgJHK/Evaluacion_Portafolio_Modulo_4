@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Productos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <header>
+            <h1>Tienda Asuka</h1>
+            <p>Productos oficiales del EVA-02</p>
+        </header>
+
+        <section class="seccion-productos">
+            <h2>Productos Disponibles</h2>
+            <div id="lista-productos" class="lista-productos">
+                </div>
+        </section>
+
+        <section class="seccion-carrito">
+            <h2>Carrito de Compras</h2>
+            <div id="lista-carrito" class="lista-carrito">
+                <p id="carrito-vacio-mensaje">El carrito está vacío.</p>
+            </div>
+            <div class="total-carrito">
+                <p>Total: $<span id="total-carrito">0.00</span></p>
+            </div>
+        </section>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
